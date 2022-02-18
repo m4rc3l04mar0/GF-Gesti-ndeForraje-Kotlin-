@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+    <item android:title="Recorrida">
+        <menu>
+            <group>
+            <item
+                android:id="@+id/nav_IngresarDatos_R"
+                android:icon="@drawable/ic_agregar_24"
+                android:title="@string/ingresar_datos" />
+            <item
+                android:id="@+id/nav_Listar_R"
+                android:icon="@drawable/ic_listar"
+                android:title="@string/listar" />
+            <item
+                android:id="@+id/nav_Modificar_R"
+                android:icon="@drawable/ic_modificar"
+                android:title="@string/modificar" />
+            <item
+                android:id="@+id/nav_Eliminar_R"
+                android:icon="@drawable/ic_eliminar"
+                android:title="@string/eliminar"/>
+            <item
+                android:id="@+id/nav_Ver_Recorrida"
+                android:icon="@drawable/ic_ver"
+                android:title="@string/ver_recorrida" />
+            <item
+                android:id="@+id/nav_Datos_QR"
+                android:icon="@drawable/ic_qr"
+                android:title="@string/datos_QR" />
+            <item
+                android:id="@+id/nav_Foto_Potrero"
+                android:icon="@drawable/ic_foto"
+                android:title="@string/foto_potrero" />
+
+        </group>
+        </menu>
+    </item>
+
+
+        <item android:title="Calculos">
+            <menu>
+                <group>
+                <item
+                    android:id="@+id/nav_TotalStockForraje"
+                    android:icon="@drawable/ic_calculate_24"
+                    android:title="@string/totalstockforraje" />
+                <item
+                    android:id="@+id/nav_PromedioPonderado"
+                    android:icon="@drawable/ic_calculate_24"
+                    android:title="@string/promedioponderado" />
+                <item
+                    android:id="@+id/nav_CrecimientoPastura"
+                    android:icon="@drawable/ic_calculate_24"
+                    android:title="@string/crecimientopastura" />
+                <item
+                    android:id="@+id/nav_ML"
+                    android:icon="@drawable/ic_ml"
+                    android:title="@string/ml" />
+
+                </group>
+
+            </menu>
+        </item>
+
+        <item android:title="Reportes">
+
+            <menu>
+                <group>
+                <item
+                    android:id="@+id/nav_CrecimientoForrajePotrero"
+                    android:icon="@drawable/ic_reportes"
+                    android:title="@string/crecimeintoforrajepotrero" />
+                <item
+                    android:id="@+id/nav_CrecimientoForrajeTotal"
+                    android:icon="@drawable/ic_reportes"
+                    android:title="@string/crecimientoforrajetotal" />
+                <item
+                    android:id="@+id/nav_PotreroCosechar"
+                    android:icon="@drawable/ic_reportes"
+                    android:title="@string/potrerococechar" />
+                <item
+                    android:id="@+id/PotreroRecorrida"
+                    android:icon="@drawable/ic_reportes"
+                    android:title="@string/potrerorecorrida" />
+                <item
+                    android:id="@+id/Graficas"
+                    android:icon="@drawable/ic_grafica"
+                    android:title="@string/graficas" />
+                </group>
+            </menu>
+        </item>
+
+        <item android:title="Salir">
+
+        <menu>
+            <group>
+        <item
+            android:id="@+id/nav_Salir_R"
+            android:icon="@drawable/ic_baseline_arrow_back_24"
+            android:title="@string/salir" />
+
+            </group>
+        </menu>
+
+        </item>
+    </group>
+
+</menu>

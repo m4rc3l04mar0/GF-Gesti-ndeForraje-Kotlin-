@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GF-Gestión de Forraje</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="ingresar_datos">Ingresar datos</string>
+    <string name="listar">Listar</string>
+    <string name="modificar">Modificar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="ver_recorrida">Ver Recorrida</string>
+    <string name="datos_QR">Carga de datos por QR</string>
+    <string name="foto_potrero">Cargar foto de potrero</string>
+    <string name="totalstockforraje">Total Stock de Forraje</string>
+    <string name="promedioponderado">Promedio total ponderado de Potreros</string>
+    <string name="crecimientopastura">Crecimiento diario Pastura</string>
+    <string name="ml">Cantidad Materia Seca ML</string>
+    <string name="crecimeintoforrajepotrero">Crecimiento de Forraje por Potrero</string>
+    <string name="crecimientoforrajetotal">Crecimiento de Forraje Total</string>
+    <string name="potrerococechar">Potrero a Cosechar</string>
+    <string name="potrerorecorrida">Potrero en una Recorrida</string>
+    <string name="graficas">Gráficas</string>
+    <string name="salir">Salir</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="potreros">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
